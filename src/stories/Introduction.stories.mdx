@@ -1,0 +1,139 @@
+import { Meta } from '@storybook/addon-docs';
+import Code from './assets/code-brackets.svg';
+import Colors from './assets/colors.svg';
+import Comments from './assets/comments.svg';
+import Direction from './assets/direction.svg';
+import Flow from './assets/flow.svg';
+import Plugin from './assets/plugin.svg';
+import Repo from './assets/repo.svg';
+import StackAlt from './assets/stackalt.svg';
+import MainImg from './assets/MainImg.svg';
+import Logo from './assets/Logo.svg';
+import BtnStart from './assets/BtnStart.svg';
+import WrapBg from './assets/WrapBg.svg';
+
+
+<Meta title="GettingStarted/Introduction" />
+
+<style>{`
+
+  .logo{
+    width:17%;
+    height:auto;
+    position:absolute;
+    right:3%;
+    top:3%;
+  }
+
+  main .main_title{
+    width:100%;
+    margin-bottom:4.5%;
+  }
+
+  .main_title p{
+    font-size:3.3rem;
+    font-weight:900;
+    line-height:50px;
+    font-family:'Noto Sans CJK KR';
+  }
+
+  .main_title p:first-child{
+    color:#263238;
+  }
+
+  .main_title p:last-child{
+    color:#1387FF;
+  }
+
+  .main_p{
+    font-size:21px;
+    line-height:24px;
+    margin-bottom:10px;
+    font-family:'Noto Sans CJK KR';
+    letter-spacing:1px;
+  }
+
+  .main_last_p{
+    margin-bottom:3%;
+  }
+
+  .btn_wrap{
+    position:relative;
+    width:170px;
+    height:40px;
+    border-radius:30px;
+    background-color:#1387FF;
+    color:#fff;
+    padding-left:20px;
+    line-height:40px;
+    cursor:pointer;
+  }
+
+  .btn_start{
+    font-size:21px;
+    font-weight:500;
+  }
+
+  .btn_arrow{
+    position:absolute;
+    right:5%;
+    top:50%;
+    transform:translateY(-50%);
+    width:9px;
+    height:auto;
+  }
+
+  .btn_wrap:hover{
+    box-shadow:0px 0px 0px 5px rgba(19, 135, 255, 0.2);
+    font-weight:600;
+  }
+
+  .main_img{
+    width:35%;
+    height:auto;
+    position:absolute;
+    right:8%;
+    top:13%;
+    z-index:99;
+  }
+
+  .wrap_bg{
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:1;
+  }
+
+`}</style>
+
+<header className="logo">
+    <img src={Logo} alt="Logo" />
+</header>
+<main>
+  <div className="main_title">
+    <p>The React UI</p>
+    <p>Component Library</p>
+  </div>
+
+  <div className="main_p">
+    <div>사용이 간편하고 다양한 기능을 가진 React UI 구성 요소 ELFiN Alpha 라이브러리는</div>
+    <div>사용자 인터페이스를 구축하는 데 도움이 됩니다.</div>
+  </div>
+
+  <div className="main_p main_last_p">
+    <div>The easy-to-use and various functions React UI Component ELFiN Alpha</div>
+    <div>library helps you build user interfaces.</div>
+  </div>
+
+  <img src={MainImg} alt="MainBg" className="main_img" />
+
+  <div className="btn_wrap">
+    <div className="btn_start">Get Started</div>
+    <img src={BtnStart} alt="BtnStart" className="btn_arrow"/>
+  </div>
+
+  <img src={WrapBg} alt="WrapBg" className="wrap_bg"/>
+</main>
+
+
