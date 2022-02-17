@@ -1,0 +1,51 @@
+.u-button {
+  font-family: 'Noto Sans';
+  text-align: center;
+  border-radius: 0.438rem;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.u-button-white{
+  background-color:#fff;
+  color:#1387ff;
+  border:0.156rem solid #1387ff;
+
+  &:hover{
+    background-color:#1387ff;
+    color:#fff;
+  }
+}
+
+.u-button-blue{
+  background-color:#0055a7;
+  color:#fff;
+  border:0.156rem solid #0055a7;
+
+  &:hover{
+    background-color:#fff;
+    color:#0055a7;
+  }
+}
+
+.u-button-skyblue{
+  background-color:#1387ff;
+  color:#fff;
+  border:0.156rem solid #1387ff;
+
+  &:hover{
+    background-color:#fff;
+    color:#1387ff;
+  }
+}
+
+.u-button-default{
+  background-color:#4f5b62;
+  color:#fff;
+  border:0.156rem solid #4f5b62;
+
+  &:hover{
+    background-color:#fff;
+    color:#4f5b62;
+  }
+}

@@ -1,11 +1,11 @@
 import { create } from '@storybook/theming'
+import HeaderLogo from '../src/stories/assets/HeaderLogo.svg'
 
 export default create({
   base: 'light',
-
-  brandTitle : 'ElfinTemplate',
+  brandTitle : '',
   brandUrl : './',
-  brandImage : '',
+  brandImage : HeaderLogo,
 
   // UI
   appBg: 'white',
@@ -14,7 +14,7 @@ export default create({
   appBorderRadius: 4,
 
   // Typography
-  fontBase: '"Open Sans", sans-serif',
+  fontBase: 'Noto Sans CJK KR',
   fontCode: 'monospace',
 
   // Text colors
@@ -22,7 +22,7 @@ export default create({
   textInverseColor: 'rgba(255,255,255,0.9)',
 
   // Toolbar default and active colors
-  barTextColor: 'white',
+  barTextColor: 'black',
   barSelectedColor: 'black',
   barBg: 'white',
 

@@ -1,7 +1,7 @@
 info @storybook/react v6.4.19
 info 
-info => Cleaning outputDir: /var/folders/2s/307xzpgx4f90p8gws6735t5r0000gn/T/chromatic--67937-O1c6mjmhVOgH
-(node:67957) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+info => Cleaning outputDir: /var/folders/2s/307xzpgx4f90p8gws6735t5r0000gn/T/chromatic--68314-dLcJh3RGwW1G
+(node:68336) DeprecationWarning: --static-dir CLI flag is deprecated, see:
 
 https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
 (Use `node --trace-deprecation ...` to show where the warning was created)
@@ -15,7 +15,6 @@ info => Copying static files: ./public => ./
 info => Loading custom manager config
 info => Compiling manager..
 info => Compiling preview..
-info => Loading custom manager config
 info => Loading Webpack configuration from `node_modules/react-scripts`
 info => Removing existing JavaScript and TypeScript rules.
 info => Modifying Create React App rules.
@@ -142,49 +141,54 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 9% setup compilation
 <s> [webpack.Progress] 10% building
 <s> [webpack.Progress] 10% building 0/1 entries 0/0 dependencies 0/0 modules
+info => Loading custom manager config
 <s> [webpack.Progress] 10% building import loader ./node_modules/babel-loader/lib/index.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/source-map-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building 0/15 entries 6/20 dependencies 0/5 modules
-<s> [webpack.Progress] 10% building 0/15 entries 19/28 dependencies 0/17 modules
+<s> [webpack.Progress] 10% building 0/15 entries 22/65 dependencies 0/18 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@mdx-js/loader/index.js
-<s> [webpack.Progress] 10% building 0/15 entries 22/65 dependencies 0/19 modules
+<s> [webpack.Progress] 10% building 0/15 entries 23/65 dependencies 0/20 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/@storybook/source-loader/dist/cjs/index.js
 <s> [webpack.Progress] 10% building 0/15 entries 28/65 dependencies 0/25 modules
-<s> [webpack.Progress] 10% building 0/15 entries 38/66 dependencies 2/34 modules
+<s> [webpack.Progress] 10% building 0/15 entries 38/66 dependencies 0/34 modules
 <s> [webpack.Progress] 10% building import loader ./node_modules/mini-css-extract-plugin/dist/loader.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/react-scripts/node_modules/css-loader/dist/cjs.js
 <s> [webpack.Progress] 10% building import loader ./node_modules/postcss-loader/dist/cjs.js
-<s> [webpack.Progress] 10% building 0/15 entries 114/175 dependencies 8/83 modules
-<s> [webpack.Progress] 10% building 0/15 entries 400/460 dependencies 10/193 modules
-<s> [webpack.Progress] 10% building 0/15 entries 525/800 dependencies 16/222 modules
-<s> [webpack.Progress] 13% building 1/15 entries 570/814 dependencies 31/222 modules
-<s> [webpack.Progress] 13% building 1/15 entries 1065/1100 dependencies 80/335 modules
-<s> [webpack.Progress] 13% building 1/15 entries 1593/1700 dependencies 225/387 modules
-<s> [webpack.Progress] 13% building 1/15 entries 2000/2078 dependencies 281/427 modules
-<s> [webpack.Progress] 13% building 1/15 entries 2288/2500 dependencies 312/483 modules
-<s> [webpack.Progress] 13% building 1/15 entries 2495/2600 dependencies 329/533 modules
-<s> [webpack.Progress] 14% building 1/15 entries 2760/2819 dependencies 378/600 modules
-<s> [webpack.Progress] 14% building 1/15 entries 2982/3100 dependencies 414/678 modules
-<s> [webpack.Progress] 15% building 1/15 entries 3400/3437 dependencies 469/776 modules
-<s> [webpack.Progress] 15% building 1/15 entries 3427/3500 dependencies 480/786 modules
-<s> [webpack.Progress] 16% building 1/15 entries 3645/3700 dependencies 570/859 modules
-<s> [webpack.Progress] 16% building 1/15 entries 3824/3900 dependencies 598/926 modules
-<s> [webpack.Progress] 17% building 1/15 entries 4069/4200 dependencies 706/995 modules
-<s> [webpack.Progress] 18% building 1/15 entries 4368/4400 dependencies 786/1045 modules
-<s> [webpack.Progress] 19% building 2/15 entries 4597/4647 dependencies 883/1083 modules
-<s> [webpack.Progress] 21% building 3/15 entries 4597/4647 dependencies 884/1083 modules
-<s> [webpack.Progress] 24% building 4/15 entries 4597/4647 dependencies 885/1083 modules
-<s> [webpack.Progress] 28% building 5/15 entries 4597/4647 dependencies 886/1083 modules
-<s> [webpack.Progress] 31% building 6/15 entries 4597/4647 dependencies 887/1083 modules
-<s> [webpack.Progress] 35% building 7/15 entries 4597/4647 dependencies 888/1083 modules
-<s> [webpack.Progress] 39% building 8/15 entries 4597/4647 dependencies 889/1083 modules
-<s> [webpack.Progress] 43% building 9/15 entries 4597/4647 dependencies 890/1083 modules
-<s> [webpack.Progress] 46% building 10/15 entries 4597/4647 dependencies 891/1083 modules
-<s> [webpack.Progress] 50% building 11/15 entries 4876/4916 dependencies 983/1126 modules
-<s> [webpack.Progress] 54% building 12/15 entries 5324/5328 dependencies 1196/1224 modules
-<s> [webpack.Progress] 57% building 13/15 entries 5332/5333 dependencies 1214/1227 modules
-<s> [webpack.Progress] 61% building 14/15 entries 5345/5345 dependencies 1234/1235 modules
-<s> [webpack.Progress] 64% building 15/15 entries 5345/5345 dependencies 1235/1235 modules
+<s> [webpack.Progress] 10% building 0/15 entries 151/190 dependencies 6/99 modules
+<s> [webpack.Progress] 10% building import loader ./node_modules/@svgr/webpack/lib/index.js
+<s> [webpack.Progress] 10% building import loader ./node_modules/file-loader/dist/cjs.js
+<s> [webpack.Progress] 10% building 0/15 entries 151/191 dependencies 6/99 modules
+<s> [webpack.Progress] 10% building 0/15 entries 300/501 dependencies 7/165 modules
+<s> [webpack.Progress] 10% building 0/15 entries 528/715 dependencies 12/237 modules
+<s> [webpack.Progress] 13% building 1/15 entries 610/718 dependencies 27/248 modules
+<s> [webpack.Progress] 13% building 1/15 entries 703/792 dependencies 30/304 modules
+<s> [webpack.Progress] 13% building 1/15 entries 1334/1400 dependencies 101/375 modules
+<s> [webpack.Progress] 13% building 1/15 entries 1795/1900 dependencies 250/430 modules
+[BABEL] Note: The code generator has deoptimised the styling of /Users/unomic/repos/StoryBook/template-storybook/src/stories/assets/WrapBg.svg as it exceeds the max of 500KB.
+[BABEL] Note: The code generator has deoptimised the styling of undefined as it exceeds the max of 500KB.
+<s> [webpack.Progress] 13% building 1/15 entries 1900/2171 dependencies 271/433 modules
+<s> [webpack.Progress] 13% building 1/15 entries 2310/2400 dependencies 328/496 modules
+<s> [webpack.Progress] 13% building 1/15 entries 2552/2600 dependencies 354/558 modules
+<s> [webpack.Progress] 14% building 1/15 entries 3029/3100 dependencies 439/686 modules
+<s> [webpack.Progress] 15% building 1/15 entries 3400/3491 dependencies 480/756 modules
+<s> [webpack.Progress] 16% building 1/15 entries 3593/3700 dependencies 571/856 modules
+<s> [webpack.Progress] 16% building 1/15 entries 3900/3942 dependencies 621/939 modules
+<s> [webpack.Progress] 18% building 1/15 entries 4300/4350 dependencies 764/1036 modules
+<s> [webpack.Progress] 21% building 2/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 21% building 3/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 24% building 4/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 28% building 5/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 32% building 6/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 35% building 7/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 39% building 8/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 43% building 9/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 46% building 10/15 entries 4940/4985 dependencies 1002/1150 modules
+<s> [webpack.Progress] 50% building 11/15 entries 4959/4987 dependencies 1021/1156 modules
+<s> [webpack.Progress] 50% building 11/15 entries 5350/5354 dependencies 1200/1237 modules
+<s> [webpack.Progress] 54% building 12/15 entries 5350/5354 dependencies 1205/1237 modules
+<s> [webpack.Progress] 57% building 13/15 entries 5361/5363 dependencies 1227/1241 modules
+<s> [webpack.Progress] 61% building 14/15 entries 5373/5373 dependencies 1247/1248 modules
+<s> [webpack.Progress] 65% building 15/15 entries 5373/5373 dependencies 1248/1248 modules
 <s> [webpack.Progress] 65% building
 <s> [webpack.Progress] 69% building finish
 <s> [webpack.Progress] 69% building finish
@@ -260,6 +264,12 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 84% sealing chunk id optimization
 <s> [webpack.Progress] 85% sealing after chunk id optimization
 <s> [webpack.Progress] 85% sealing after chunk id optimization
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record modules RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record modules
+<s> [webpack.Progress] 86% sealing record chunks
+<s> [webpack.Progress] 86% sealing record chunks RecordIdsPlugin
+<s> [webpack.Progress] 86% sealing record chunks
 <s> [webpack.Progress] 87% sealing module hashing
 <s> [webpack.Progress] 87% sealing module hashing
 <s> [webpack.Progress] 87% sealing code generation
@@ -270,6 +280,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 89% sealing hashing
 <s> [webpack.Progress] 89% sealing after hashing
 <s> [webpack.Progress] 89% sealing after hashing
+<s> [webpack.Progress] 90% sealing record hash
+<s> [webpack.Progress] 90% sealing record hash
 <s> [webpack.Progress] 91% sealing module assets processing
 <s> [webpack.Progress] 91% sealing module assets processing
 <s> [webpack.Progress] 91% sealing chunk assets processing
@@ -278,18 +290,17 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing ESLintWebpackPlugin_1
 <s> [webpack.Progress] 92% sealing asset processing PersistentChildCompilerSingletonPlugin
 <s> [webpack.Progress] 92% sealing asset processing TerserPlugin
+info => Manager built (42 s)
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/main.0a5f791c.css generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/main.0a5f791c.css generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.c13afac6.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.c13afac6.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.2aa4de49.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.2aa4de49.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4f9cf9e0.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin main.4f9cf9e0.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.29d5a293.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin runtime~main.29d5a293.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 701.c2485e04.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 701.c2485e04.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 869.19755896.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 869.19755896.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 861.3c853ae5.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 861.3c853ae5.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 574.6601d507.iframe.bundle.js generate SourceMap
@@ -300,8 +311,8 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 459.dacbfff2.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 331.99c314cb.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 331.99c314cb.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 893.db8272ed.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 893.db8272ed.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.406b9e73.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin 145.406b9e73.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin resolve sources
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/main.0a5f791c.css attach SourceMap
 <s> [webpack.Progress] 92% sealing asset processing SourceMapDevToolPlugin static/css/main.0a5f791c.css attached SourceMap
@@ -315,10 +326,10 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing HtmlWebpackPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.599f4f59.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.599f4f59.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.a7731ace.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.a7731ace.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2cb7960c.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin main.2cb7960c.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.af4e5991.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin runtime~main.af4e5991.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 701.582f0f3f.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 701.582f0f3f.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 574.ce31b497.iframe.bundle.js generate SourceMap
@@ -327,98 +338,60 @@ info => Using default Webpack5 setup
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 881.eafa2fc0.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 459.cde3228a.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 459.cde3228a.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 869.6b3b412b.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 869.6b3b412b.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 861.fb7e1627.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 861.fb7e1627.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 331.94c09b9d.iframe.bundle.js generate SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 331.94c09b9d.iframe.bundle.js generated SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 893.46c892bf.iframe.bundle.js generate SourceMap
-<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 893.46c892bf.iframe.bundle.js generated SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 145.71baad0a.iframe.bundle.js generate SourceMap
+<s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin 145.71baad0a.iframe.bundle.js generated SourceMap
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin resolve sources
 <s> [webpack.Progress] 92% sealing asset processing RealContentHashPlugin
 <s> [webpack.Progress] 92% sealing asset processing
 <s> [webpack.Progress] 93% sealing after asset optimization
 <s> [webpack.Progress] 93% sealing after asset optimization
+<s> [webpack.Progress] 93% sealing recording
+<s> [webpack.Progress] 93% sealing recording
 <s> [webpack.Progress] 94% sealing after seal
 <s> [webpack.Progress] 94% sealing after seal
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 95% emitting emit
+<s> [webpack.Progress] 98% emitting after emit
+<s> [webpack.Progress] 98% emitting after emit SizeLimitsPlugin
+<s> [webpack.Progress] 98% emitting after emit
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% done plugins CaseSensitivePathsPlugin
 <s> [webpack.Progress] 99% done plugins ForkTsCheckerWebpackPlugin
 <s> [webpack.Progress] 99% done plugins
 <s> [webpack.Progress] 99% 
 
+<s> [webpack.Progress] 99% cache store build dependencies
+<s> [webpack.Progress] 99% cache store build dependencies
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 99% cache begin idle
 <s> [webpack.Progress] 100% 
 
-ERR! => Failed to build the preview
-ERR! Module build failed (from ./node_modules/@mdx-js/loader/index.js):
-ERR! SyntaxError: unknown: Expected corresponding JSX closing tag for <div>. (117:39)
-ERR! 
-ERR!   115 |   </div>
-ERR!   116 | <img src={MainImg} alt="MainBg" className="main_img" />
-ERR! > 117 | <p>{`  {/* `}<div className="btn_wrap"></p>
-ERR!       |                                        ^
-ERR!   118 | <pre><code parentName="pre" {...{}}>{`<div className="btn_start">Get Started</div>
-ERR!   119 | <img src={BtnStart} alt="BtnStart" className="btn_arrow"/>
-ERR!   120 | `}</code></pre>
-ERR!     at Object._raise (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:476:17)
-ERR!     at Object.raiseWithData (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:469:17)
-ERR!     at Object.raise (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:430:17)
-ERR!     at Object.jsxParseElementAt (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7763:16)
-ERR!     at Object.jsxParseElementAt (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7726:32)
-ERR!     at Object.jsxParseElementAt (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7726:32)
-ERR!     at Object.jsxParseElementAt (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7726:32)
-ERR!     at Object.jsxParseElement (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7793:17)
-ERR!     at Object.parseExprAtom (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:7807:19)
-ERR!     at Object.parseExprSubscripts (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:12149:23)
-ERR!     at Object.parseUpdate (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:12129:21)
-ERR!     at Object.parseMaybeUnary (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:12104:23)
-ERR!     at Object.parseMaybeUnaryOrPrivate (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:11901:61)
-ERR!     at Object.parseExprOps (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:11908:23)
-ERR!     at Object.parseMaybeConditional (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:11878:23)
-ERR!     at Object.parseMaybeAssign (/Users/unomic/repos/StoryBook/template-storybook/node_modules/@babel/parser/lib/index.js:11833:21)
-ERR! 
-ERR! src/stories/Elements/Task.tsx
-ERR!   Line 14:51:  'updatedAt' is defined but never used  @typescript-eslint/no-unused-vars
-ERR! 
-ERR! 
+info => Preview built (43 s)
+WARN 
+WARN src/stories/Elements/Task.tsx
+WARN   Line 14:51:  'updatedAt' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   static/media/MainImg.fedf8bc96feeced21514c44b73c40472.svg (269 KiB)
+WARN   static/media/WrapBg.5dedae02e9cc6c9860b20d3ee17cea10.svg (671 KiB)
+WARN   145.71baad0a.iframe.bundle.js (2.02 MiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (2.07 MiB)
+WARN       runtime~main.af4e5991.iframe.bundle.js
+WARN       145.71baad0a.iframe.bundle.js
+WARN       main.2cb7960c.iframe.bundle.js
+WARN       static/css/main.5b7d319f.css
+WARN 
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 99% cache shutdown
 <s> [webpack.Progress] 100% 
 
-ERR! Error: => Webpack failed, learn more with --debug-webpack
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/@storybook/builder-webpack5/dist/cjs/index.js:200:62
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/HookWebpackError.js:68:3
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:11:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at Cache.shutdown (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Cache.js:150:23)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1212:15
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at Compiler.close (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1205:23)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/@storybook/builder-webpack5/dist/cjs/index.js:199:20
-ERR!     at finalCallback (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:441:32)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:458:13
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:35:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at onCompiled (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:456:21)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1183:17
-ERR!  Error: => Webpack failed, learn more with --debug-webpack
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/@storybook/builder-webpack5/dist/cjs/index.js:200:62
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/HookWebpackError.js:68:3
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:11:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at Cache.shutdown (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Cache.js:150:23)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1212:15
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:6:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at Compiler.close (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1205:23)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/@storybook/builder-webpack5/dist/cjs/index.js:199:20
-ERR!     at finalCallback (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:441:32)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:458:13
-ERR!     at Hook.eval [as callAsync] (eval at create (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:35:1)
-ERR!     at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/node_modules/tapable/lib/Hook.js:18:14)
-ERR!     at onCompiled (/Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:456:21)
-ERR!     at /Users/unomic/repos/StoryBook/template-storybook/node_modules/webpack/lib/Compiler.js:1183:17
+info => Output directory: /var/folders/2s/307xzpgx4f90p8gws6735t5r0000gn/T/chromatic--68314-dLcJh3RGwW1G

@@ -1,19 +1,11 @@
 import { Meta } from '@storybook/addon-docs';
-import Code from './assets/code-brackets.svg';
-import Colors from './assets/colors.svg';
-import Comments from './assets/comments.svg';
-import Direction from './assets/direction.svg';
-import Flow from './assets/flow.svg';
-import Plugin from './assets/plugin.svg';
-import Repo from './assets/repo.svg';
-import StackAlt from './assets/stackalt.svg';
 import MainImg from './assets/MainImg.svg';
 import Logo from './assets/Logo.svg';
 import BtnStart from './assets/BtnStart.svg';
 import WrapBg from './assets/WrapBg.svg';
 
 
-<Meta title="GettingStarted/Introduction" />
+<Meta title="GENERAL/Introduction" />
 
 <style>{`
 
@@ -27,7 +19,8 @@ import WrapBg from './assets/WrapBg.svg';
 
   main .main_title{
     width:100%;
-    margin-bottom:4.5%;
+    margin-bottom:4.3%;
+    padding-top:2%;
   }
 
   .main_title p{
@@ -48,13 +41,13 @@ import WrapBg from './assets/WrapBg.svg';
   .main_p{
     font-size:24px;
     line-height:24px;
-    margin-bottom:10px;
+    margin-bottom:1%;
     font-family:'Noto Sans CJK KR';
     letter-spacing:1px;
   }
 
   .main_last_p{
-    margin-bottom:3%;
+    margin-bottom:6%;
   }
 
   .btn_wrap{
@@ -117,16 +110,23 @@ import WrapBg from './assets/WrapBg.svg';
   </div>
 
   <div className="main_p">
-    <div>사용이 간편하고 다양한 기능을 가진 React UI 구성 요소 ELFiN Alpha 라이브러리는</div>
-    <div>사용자 인터페이스를 구축하는 데 도움이 됩니다.</div>
+    <div>사용이 간편하고 다양한 기능을 가진 React UI 구성 요소 ELFiN Alpha</div>
+    <div>라이브러리는 사용자 인터페이스를 구축하는 데 도움이 됩니다.</div>
   </div>
 
   <div className="main_p main_last_p">
-    <div>The easy-to-use and various functions React UI Component ELFiN Alpha</div>
-    <div>library helps you build user interfaces.</div>
+    <div>The easy-to-use and various functions React UI Component</div>
+    <div>ELFiN Alpha library helps you build user interfaces.</div>
   </div>
 
   <img src={MainImg} alt="MainBg" className="main_img" />
+
+  <div className="btn_wrap">
+    <div className="btn_start">Get Started</div>
+    <img src={BtnStart} alt="BtnStart" className="btn_arrow"/>
+  </div>
+
+  <img src={WrapBg} alt="WrapBg" className="wrap_bg"/>
 </main>
 
 

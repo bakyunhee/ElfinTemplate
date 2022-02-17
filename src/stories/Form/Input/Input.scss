@@ -1,0 +1,36 @@
+.u-input{
+  font-family:'Noto Sans CJK KR';
+  min-width:11.25rem;
+  min-height:2.188rem;
+  background-color:#fff;
+  border:0.13rem solid #1387ff;
+  border-radius: 0.5rem;
+  padding:0 0.75rem;
+
+  :focus{
+    outline: 0.063rem solid #449ffd;
+    border: 0.063rem solid #449ffd;
+  }
+}
+
+.u-textarea{
+  font-family:'Noto Sans CJK KR';
+  min-width:11.25rem;
+  min-height:2.188rem;
+  background-color:#fff;
+  border:0.13rem solid #1387ff;
+  border-radius: 0.5rem;
+  resize:none;
+  padding:0.75rem;
+
+  :focus{
+    outline: 0.063rem solid #449ffd;
+    border: 0.063rem solid #449ffd;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(19, 135, 255, 0.5);
+    outline: 0;
+    border-radius: 0.188rem;
+  }
+}
